@@ -429,7 +429,7 @@ public final class PropertiesDialog extends JDialog {
      * @return the list of renderers.
      */
     private JComboBox setUpRendererChooser() {
-        final JComboBox nameBox = new JComboBox(new String[] { "LWJGL 2.8.4", "JOGL 2.0rc11" });
+        final JComboBox nameBox = new JComboBox(new String[] { "LWJGL", "JOGL" });
         final String old = source.getRenderer();
         if (old != null) {
             if (old.startsWith("LWJGL")) {
